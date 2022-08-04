@@ -1,9 +1,9 @@
 # Seq2seq Chatbot
 
-tf-seq2seq is a general-purpose encoder-decoder framework for Tensorflow that can be used for Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
+tf-seq2seq is a general-purpose encoder-decoder framework for Tensorflow that may be used for various tasks such as conversational modelling, image captioning, machine translation, and text summarization.
 
 We create place holders of input and target
-(Placeholders: A placeholder is simply a variable that we will assign data to at a later date. It allows us to create our operations and build our computation graph, without needing the data. In TensorFlow terminology, we then feed data into the graph through these placeholders.)
+(Placeholders: A placeholder is merely a variable to which we will subsequently give information. Without requiring the data, it enables us to design our computation graph and produce our operations. In TensorFlow terminology, we then feed data into the graph through these placeholders.)
 ```python
 # Creating placeholders for the inputs and the targets
 def model_inputs():
